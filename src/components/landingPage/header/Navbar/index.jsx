@@ -6,9 +6,9 @@ import "./style.scss";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
-  const handleClick = () => {
-    history.push("/login");
-  };
+  // const handleClick = () => {
+  //   history.push("/login");
+  // };
   const handleChange = () => {
     setIsActive(!isActive);
   };
@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
           
           <div className="navbar-button">
-            <button onClick={handleClick}>Contact us</button>
+            <button>Contact us</button>
           </div>
           <div className="hamburger" onClick={handleChange}>
             <img src={Hamburger} alt="" />

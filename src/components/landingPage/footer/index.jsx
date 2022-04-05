@@ -4,9 +4,9 @@ import "./style.scss";
 import Overlay from "./asset/Path 4.png";
 
 const Footer = () => {
-  const handleClick = (id) => {
-    history.push("/signup");
-  };
+  // const handleClick = (id) => {
+  //   history.push("/signup");
+  // };
   return (
     <>
       <div className="footer">
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
           <div className="in-div2">
             <h3>Blog Farmstripe</h3>
-            <button onClick={handleClick}>Contact us</button>
+            <button>Contact us</button>
           </div>
         </div>
       </div>
