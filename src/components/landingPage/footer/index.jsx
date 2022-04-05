@@ -20,16 +20,16 @@ const Footer = () => {
             </div>
             <div>
               <p>
-                <a href="www.google.com">About Us</a>
+                <a href="/">About Us</a>
               </p>
               <p>
-                <a href="www.google.com">Team</a>
+                <a href="/">Team</a>
               </p>
               <p>
-                <a href="www.google.com">Careers</a>
+                <a href="/">Careers</a>
               </p>
               <p>
-                <a href="www.google.com">Contact</a>
+                <a href="/">Contact</a>
               </p>
             </div>
           </div>
@@ -39,16 +39,16 @@ const Footer = () => {
             </div>
             <div className="margin">
               <p>
-                <a href="www.google.com">Features</a>
+                <a href="/">Features</a>
               </p>
               <p>
-                <a href="www.google.com">How it works</a>
+                <a href="/">How it works</a>
               </p>
               <p>
-                <a href="www.google.com">Pricing</a>
+                <a href="/">Pricing</a>
               </p>
               <p>
-                <a href="www.google.com">Login</a>
+                <a href="/">Login</a>
               </p>
             </div>
           </div>
@@ -59,13 +59,13 @@ const Footer = () => {
             </div>
             <div>
               <p>
-                <a href="www.google.com">Privacy</a>
+                <a href="/">Privacy</a>
               </p>
               <p>
-                <a href="www.google.com">Terms</a>
+                <a href="/">Terms</a>
               </p>
               <p>
-                <a href="www.google.com">Security</a>
+                <a href="/">Security</a>
               </p>
             </div>
           </div>
