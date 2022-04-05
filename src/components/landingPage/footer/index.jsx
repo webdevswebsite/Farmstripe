@@ -1,5 +1,4 @@
 import React from "react";
-import history from "../../utils";
 import "./style.scss";
 import Overlay from "./asset/Path 4.png";
 
