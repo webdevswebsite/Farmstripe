@@ -1,5 +1,4 @@
 import { useState } from "react";
-import history from "../../../utils";
 import Hamburger from "./asset/hamburger (2)/1x/outline_menu_black_24dp.png";
 import SideNav from "./sideBar/index";
 import "./style.scss";
