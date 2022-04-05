@@ -72,7 +72,6 @@ const Footer = () => {
           </div>
           <div className="in-div2">
             <h3>Blog Farmstripe</h3>
-            <p>Write email to us</p>
             <p>
               <a href="www.google.com">info@Farmstripe.com</a>
             </p>
