@@ -1,0 +1,73 @@
+section {
+  width: 100%;
+  .Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 79.5%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    .hamburger {
+      display: none;
+    }
+    h1 {
+      color: #13aa57;
+      cursor: pointer;
+      margin-top: 0.7rem;
+      font-size: 1.7rem;
+    }
+
+    .navbar-button {
+      button {
+        padding: 7px 50px;
+        border-radius: 6px;
+        margin-top: 0.5rem;
+        color: #ffffff;
+        background-color: #13aa57;
+        border: #13aa57;
+        cursor: pointer;
+        font-family: "chivo";
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    .Navbar {
+      .Navbar-list {
+        width: 1%;
+        ul {
+          .none {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  section {
+    .Navbar {
+      width: 90%;
+      .navbar-button {
+        button {
+          margin-left: 9rem;
+          padding: 7px 30px;
+        }
+      }
+      .hamburger {
+        display: block;
+        margin-top: 0.2rem;
+        width: 10%;
+        img {
+          width: 100%;
+          height: 67%;
+        }
+      }
+      .Navbar-list {
+        display: none;
+      }
+    }
+  }
+}
