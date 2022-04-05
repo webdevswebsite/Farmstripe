@@ -72,9 +72,6 @@ const Footer = () => {
           </div>
           <div className="in-div2">
             <h3>Blog Farmstripe</h3>
-            <p>
-              <a href="www.google.com">info@Farmstripe.com</a>
-            </p>
             <button onClick={handleClick}>Contact us</button>
           </div>
         </div>
