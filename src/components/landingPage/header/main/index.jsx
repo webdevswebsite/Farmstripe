@@ -12,7 +12,7 @@ const Hero = () => {
             <h1>A New Way to Invest in Agriculture</h1>
           </div>
           <p>
-            Zou provides farmers, ranchers, private foresters, and agricultural
+            farmstripe provides farmers, ranchers, private foresters, and agricultural
             producers with online self service applications and educational
             materials...
           </p>
